@@ -12,14 +12,18 @@
     "run-app": "npx ts-node apps/app/app.ts",
     "run-sync": "npx ts-node apps/sync/sync.ts",
     "run-sync-reindex": "npx ts-node apps/sync/sync.ts --full-reindex",
+    "test": "jest",
     "prettier": "npx prettier . --check",
     "prettier-fix": "npx prettier . --write"
   },
   "dependencies": {
     "@faker-js/faker": "^8.2.0",
+    "@types/jest": "^29.5.8",
     "@types/mongodb": "^4.0.7",
     "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
     "mongodb": "^6.2.0",
+    "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
